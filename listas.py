@@ -3,13 +3,13 @@ __autor__ = 'Victor Hugo Vergara Jr'
 class memDinamica:
     __lista = []
 
-    def __init__(self, list):
-        self.__lista = list
+    def __init__(self, lista):
+        self.__lista = lista
 
     def getAutos(self):
-        return self.__listas
+        return self.__lista
 
-     def recorrerArreglo(self):
+    def recorrerArreglo(self):
         for x in self.getAutos():
             print (self.getAutos().index(x)+1, x)
 
